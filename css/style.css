@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'flangofont';
+    src: url('../fonts/Pacifico-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+header{
+    background-color: white;
+}
+
+label{
+    color: #800080ff;
+    font-weight: bold;
+}
+
+#admin-content-div{
+    margin:0 15px 0 15px;
+}
+#firstline{
+    margin:0 5px 0 5px;
+    min-height:500px;
+}
+.template-box{
+    border:thin solid grey;
+    background-color:lightgray;
+    min-height:100px; 
+    width:105px;
+    display:inline-block;
+    margin-bottom: 10px;
+    margin-right:5px;
+    display: none;
+}
+.product-img{
+    width:150px;
+    height:150px;
+}
+
+.tbl-header{
+    background-color:#800080ff;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.prod-actions{
+    margin:5px;
+    background-color: #800080ff;
+    color:#FFFFFF;
+}
+
+.search-img{
+    width:150px;
+    height:100%;
+    margin:10px;
+}
+
+.dash-link{font-size:12pt; background-color: #800080ff; color:white; margin-top: 10px; border-radius: 8px; padding: 8px; border:thin solid orangered;}
+.main-title{font-size: 50pt; color: #800080ff;font-family:'flangofont';}
+.small-main-title{font-size: 24pt; color: #800080ff;font-family:'flangofont';}
+.main-input{height:50px; border-radius: 15px;font-size: 16pt;width:100%}
+.main-btn{width:170px; background-color: #800080ff; padding: 8px; color: white; font-weight: bold;}
+.table-header{background-color:#800080ff ; color:white!important;}
+.action-link{color:#800080ff; }
+.white-label{color:#800080ff;font-style: oblique;}
+.logout-link{background-color: #800080ff;color:white; padding:4px;border-radius: 3px;}
+.not-found-box{
+    min-height: 558px;
+    padding-top: 25px;
+}
+.error-text{color:red; font-style: italic;}
+.blue-text{color:blue;}
+.trans-frame{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    border-radius: 8px;
+    margin-left:5px;
+}
+.trans-frame-color{
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 8px;
+    margin-left:5px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    border: thin solid rgba(0, 0, 0, 0.7);
+}
+.casa-btn{
+    background-color: #800080ff;
+    color:#FFFFFF;
+}
+.login-text{
+    color: #800080ff;
+}
+.centered-title{
+    text-align: center;
+    color:#800080ff;
+}
+.form-label{
+    color: #800080ff;font-weight: bold;
+}
+.table-row{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.ext-pic{
+    width: 100%;
+    height: 90%;
+    border-radius: 5px;
+}
+
+.int-pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.label-search{
+    color:#800080ff;
+    font-style: italic;
+    font-size: 8pt;
+}
+
+.big-search-title{
+    font-size: 16pt;
+    color: #800080ff;
+    font-weight: bold;
+}
+
+.curved-box{
+    border: thin solid black;
+    border-radius: 5px;
+    padding: 8px;
+    color:#755BB4;
+    font-style: italic;
+}
+
+.curved-box-fill{
+    border: thin solid #755BB4;
+    border-radius: 5px;
+    padding: 5px;
+    background-color:#755BB4;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 975px) {
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1116px) {
+
+}
+
+@media screen and (min-width: 775px) and (max-width: 950px) {
+
+}
+
+@media screen and (max-width: 500px) {
+   
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    /* IE10+ CSS */
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+        max-height: 100%;
+        overflow-y: scroll;
+    }
+}
+
+@supports (-ms-accelerator:true) {
+    /* Edge 12+ CSS */
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+        max-height: 100%;
+        overflow-y: scroll;
+    }
+}
+
+@supports (-ms-ime-align:auto) {
+    /* Edge 16+ CSS */
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+        max-height: 100%;
+        overflow-y: scroll;
+    }
+}
